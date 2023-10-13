@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "percy exec -v -- mvn clean test -P bstack-single"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.27.3"
+  }
+}
